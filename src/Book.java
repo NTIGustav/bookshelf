@@ -28,12 +28,12 @@ public class Book {
         }
     }
 
-    public void returnbook(){
+    public void returnBook(){
         isBorrowed = false;
         borrower = null;
     }
 
-    public void readbook(){
+    public void readBook(){
         System.out.println("Titel "+ title);
         System.out.println(content);
     }

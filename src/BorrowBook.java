@@ -42,7 +42,7 @@ public class BorrowBook {
             return false;
         }
 
-        book.returnbook();
+        book.returnBook();
         System.out.println(book.getTitle() + " är tillbaka lämnad");
         return true;
     }
