@@ -1,5 +1,9 @@
 import java.util.Scanner;
 public class Attributes {
+
+    Book[] books;
+    User[] users;
+    BorrowBook borrowBook;
     Book[] books = new Book[4];
     books[0] = new Book("Bok 1", "Innehåll av bok 1");
     books[1] = new Book("Bok 2", "Innehåll av bok 2");
